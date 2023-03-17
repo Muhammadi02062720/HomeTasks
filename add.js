@@ -148,13 +148,24 @@
 //     if(b==c && c!=a )return '1'
 // }
 // console.log(rev(20,2,20));
-let a=0
-function rev(n){
-    if(n<=0){
-        return Math.floor(a/10)
-    }
-    a+=n%10
-    a=a*10
-    return rev(Math.floor(n/10))
-}
-console.log(rev(235));
+
+// let a=0
+// function rev(n){
+//     if(n<=0){
+//         return Math.floor(a/10)
+//     }
+//     a+=n%10
+//     a=a*10
+//     b= rev(Math.floor(n/10))
+//     return b
+// }
+// console.log(rev(234));
+
+// function nameD(a=0){
+//     return function(b=0){
+//         return function(c=0){
+//             return a+b+c
+//         }
+//     }
+// }
+// console.log(nameD(5)()(5));
