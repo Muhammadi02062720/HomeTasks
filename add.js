@@ -119,6 +119,18 @@
 // }
 
 // console.log(bigereThanSum(24,7));
+// let b=0
+// let v=0
+// function rev(n,a){
+//     if(n==0) {
+//         return Math.floor(b/10)
+//     }
+//     b+=n%10
+//     v= rev(Math.floor(n/10))
+//     return b+v>a
+  
+// }
+// console.log(rev(18,8));
 
 // task 9 
 
