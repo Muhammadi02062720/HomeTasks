@@ -131,3 +131,30 @@
 //     return c>=100
 // }
 // console.log(threeDiggitNum(234));
+
+// function rev(a,b,c,d){
+//     if(a==b && b==c && c!=d)return '4'
+//     if(a==b && b==d && d!=c)return '3'
+//     if(a==c && c==d && d!=b)return '2'
+//     if(b==c && c==d && d!=a)return '1'
+// }
+// console.log(rev(2,2,2,3));
+// console.log(rev(1,6,6,6));
+// console.log(rev(2,8,2,2));
+
+// function rev(a,b,c){
+//     if(a==b && c!=b )return '3'
+//     if(a==c && b!=c )return '2'
+//     if(b==c && c!=a )return '1'
+// }
+// console.log(rev(20,2,20));
+let a=0
+function rev(n){
+    if(n<=0){
+        return Math.floor(a/10)
+    }
+    a+=n%10
+    a=a*10
+    return rev(Math.floor(n/10))
+}
+console.log(rev(235));
